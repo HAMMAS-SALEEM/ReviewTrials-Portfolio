@@ -92,13 +92,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .contact-form {
-      background-image: url(./images/contact-back-high.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+  .contact-form {
+    background-image: url(./images/contact-back-high.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    .contact-info p {
-      width: 569px;
-    }
+  .contact-info p {
+    width: 569px;
+  }
 }
