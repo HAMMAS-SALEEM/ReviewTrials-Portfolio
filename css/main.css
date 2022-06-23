@@ -396,6 +396,8 @@ form ul,
   width: 303px;
   margin: 12px;
   color: #3c3a39;
+  background: rgb(300, 300, 230);
+  border: none;;
 }
 
 .error-msg {
