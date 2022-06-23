@@ -325,3 +325,486 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.footer {
+  height: 810px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff8f7;
+}
+
+.invitation {
+  color: #172b4d;
+  height: 216px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  font-family: Inter, serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+form,
+form ul,
+.full-name,
+.email {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  height: 18px;
+  width: 295px;
+  left: 16px;
+  top: 15px;
+  font-family: Inter, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #979493;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.blog {
+  background-color: #fbf8f7;
+  height: 114px;
+  width: 327px;
+  font-family: Inter, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.area {
+  height: 90px;
+  width: 303px;
+  margin: 12px;
+  color: #3c3a39;
+  background: rgb(300, 300, 230);
+  border: none;
+}
+
+.error-msg {
+  background-color: #fbf8f7;
+  color: #3c3a39;
+  font-family: "Roboto", serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  position: relative;
+  bottom: 250px;
+  left: 25px;
+  z-index: 1;
+}
+
+.touch {
+  height: 48px;
+  width: 127px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+  margin-bottom: 104px;
+}
+
+.footer ul#carte li {
+  height: 72px;
+  width: 375px;
+  color: #505f79;
+  position: relative;
+  right: 0;
+  display: inline;
+  padding: 2px;
+}
+
+#carte .github {
+  height: 20px;
+  width: 17.985200881958008px;
+  top: 351px;
+  border-radius: 0;
+}
+
+.vector {
+  height: 16.965517044067383px;
+  width: 12.711573600769043px;
+  top: 397.03466796875px;
+  border-radius: 0;
+}
+
+#carte .angel {
+  height: 20px;
+  width: 14.166671752929688px;
+  top: 435px;
+  border-radius: 0;
+}
+
+#carte .twitter {
+  height: 19.962478637695312px;
+  width: 19.985925674438477px;
+  top: 473px;
+  border-radius: 0;
+}
+
+#carte .medium {
+  height: 16px;
+  width: 20px;
+  top: 513px;
+  border-radius: 0;
+}
+
+.break {
+  height: 3px;
+  width: 327px;
+  left: 0;
+  top: 47px;
+  border-radius: 0;
+}
+
+.line {
+  height: 5px;
+  width: 134px;
+  margin-left: 45px;
+  top: 21px;
+  border-radius: 10px;
+}
+
+.bn-button:hover,
+.pr-button:hover,
+.resume:hover,
+.touch:hover {
+  background: #fff5e1;
+  color: #f55800;
+}
+
+.bn-button:active,
+.pr-button:active,
+.resume:active,
+.touch:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+.blue:hover {
+  background: lightblue;
+}
+
+.orange:hover {
+  background: lightsalmon;
+}
+
+.pink:hover {
+  background-color: #c154c1;
+}
+
+.red:hover {
+  background: lightcoral;
+}
+
+.html:hover {
+  background: #9f4511;
+}
+
+.boot:hover {
+  background: #563d7c;
+}
+
+.ruby:hover {
+  background: #820c02;
+}
+
+.blue:active {
+  background: #dc143c;
+}
+
+.orange:active {
+  background: #dc143c;
+}
+
+.pink:active {
+  background-color: #dc143c;
+}
+
+.red:active {
+  background: #dc143c;
+}
+
+.html:active {
+  background: #ff7f50;
+}
+
+.boot:active {
+  background: #ff7f50;
+}
+
+.ruby:active {
+  background: #ff7f50;
+}
+
+@media only screen and (min-width: 992px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 41% 59%;
+    grid-template-rows: 60% 10% 30%;
+    background-color: #fff8f7;
+  }
+
+  .introduction {
+    margin-left: 300px;
+    margin-top: 30px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .introduction h4 {
+    color: #262626;
+    height: 256px;
+    width: 350px;
+    font-family: Inter, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 42px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .form ul,
+  .form .my-name,
+  .form .my-mail {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 60px;
+    width: 600px;
+  }
+
+  .form ul {
+    width: 600px;
+  }
+
+  .break {
+    height: 3px;
+    width: 599px;
+  }
+
+  .text {
+    height: 18px;
+    width: 595px;
+    left: 16px;
+    top: 15px;
+    font-family: Roboto, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #979493;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  .blog {
+    background-color: #fbf8f7;
+    color: #3c3a39;
+    height: 95px;
+    width: 600px;
+    font-family: Roboto, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  .area {
+    height: 90px;
+    width: 595px;
+    color: #3c3a39;
+  }
+
+  .error-msg {
+    background-color: #fbf8f7;
+    color: #3c3a39;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 55px;
+    z-index: 1;
+  }
+
+  .touch {
+    height: 48px;
+    width: 127px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    background-color: #f55800;
+    border: none;
+    margin-bottom: 104px;
+  }
+
+  .delimiter {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    height: 85px;
+  }
+
+  .underline {
+    margin-top: 70px;
+    height: 5px;
+    width: 1650px;
+    margin-left: 25px;
+  }
+
+  .links {
+    height: 170px;
+    margin-top: 30px;
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+
+  #my-carte li {
+    height: 150px;
+    width: 375px;
+    color: #505f79;
+    position: relative;
+    right: 0;
+    display: inline;
+    padding: 2px;
+    left: 700px;
+  }
+
+  .links ul {
+    height: 70px;
+  }
+
+  .footer .my-carte .github {
+    height: 20px;
+    width: 17.985200881958008px;
+  }
+
+  .vector-two {
+    height: 16.965517044067383px;
+    width: 12.711573600769043px;
+    margin-bottom: 8px;
+  }
+
+  .vector-one {
+    height: 14.965517044067383px;
+    width: 8.711573600769043px;
+    margin-bottom: 8px;
+  }
+
+  .my-carte .angel {
+    height: 20px;
+    width: 14.166671752929688px;
+  }
+
+  .my-carte .twitter {
+    height: 19.962478637695312px;
+    width: 19.985925674438477px;
+  }
+
+  .my-carte .medium {
+    height: 16px;
+    width: 20px;
+  }
+
+  .bn-button:hover,
+  .pr-button:hover,
+  .resume:hover,
+  .touch:hover {
+    background: #fff5e1;
+    color: #f55800;
+  }
+
+  .bn-button:active,
+  .pr-button:active,
+  .resume:active,
+  .touch:active {
+    background: #e05304;
+    color: #f4f1f0;
+  }
+
+  .blue:hover {
+    background: lightblue;
+  }
+
+  .orange:hover {
+    background: lightsalmon;
+  }
+
+  .pink:hover {
+    background-color: #c154c1;
+  }
+
+  .red:hover {
+    background: lightcoral;
+  }
+
+  .html:hover {
+    background: #9f4511;
+  }
+
+  .boot:hover {
+    background: #563d7c;
+  }
+
+  .ruby:hover {
+    background: #820c02;
+  }
+
+  .blue:active,
+  .orange:active,
+  .pink:active,
+  .red:active {
+    background: #dc143c;
+  }
+
+  .html:active,
+  .boot:active,
+  .ruby:active {
+    background: #ff7f50;
+  }
+}
